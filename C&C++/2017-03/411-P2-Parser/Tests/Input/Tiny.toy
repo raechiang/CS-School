@@ -1,0 +1,8 @@
+// Program => Decl => FunctionDecl => void main(Formals) StmtBlock
+// Formals => empty [reduce 07.2]
+// StmtBlock => { StmtVarDecl StmtBlockStmt }
+// StmtVarDecl => empty [reduce 12.1.1.1]
+// StmtBlockStmt => empty [reduce 12.1.2.1]
+// r07.2 r12.1.1.1 r12.1.2.1 r12.1 r06.2 r02.2 r01.1
+
+void main() {}

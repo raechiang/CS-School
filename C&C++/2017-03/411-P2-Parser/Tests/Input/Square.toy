@@ -1,0 +1,18 @@
+// A Toy Program that should be accepted
+
+class Square extends Shape implements Geometry
+{
+   double side;
+
+   Square Square(double s)
+   {
+      side = s; //rejected
+   }
+
+   double getArea()
+   {
+      double area;
+      area = side * side;
+      return area;
+   }
+}

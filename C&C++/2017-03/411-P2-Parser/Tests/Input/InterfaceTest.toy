@@ -1,0 +1,4 @@
+interface tester
+{
+int round(double a);
+}

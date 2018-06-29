@@ -1,0 +1,8 @@
+void [shift]
+id [shift]
+([shift]
+)[reduce 07.2][shift]
+{[shift]
+[reduce 12.1.1.1]}[reduce 12.1.2.1][shift]
+[reduce 12.1][reduce 06.2][reduce 02.2][reduce 01.1][shift]
+[accept]

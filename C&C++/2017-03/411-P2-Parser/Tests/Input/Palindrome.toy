@@ -1,0 +1,19 @@
+boolean checkPalindrome(string s)
+{
+   int[] asciiS;
+   int i;
+   int j;
+   asciiS = s.toASCIIArray();
+   i = 0;
+   j = s.getLength();
+   while (i != j)
+   {
+      if (asciiS[i] != asciiS[j])
+      {
+         return false;
+      }
+      i = i + 1;
+      j = j - 1;
+   }
+   return true;
+}

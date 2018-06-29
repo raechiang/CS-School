@@ -1,0 +1,205 @@
+Option 1: A and B are equal but distinct sets.
+Option 2: A and B have different sizes, but one is a subset of the other.
+Option 3: A and B are non-empty and different in size but have common elements.
+Option 4: A and B are non-empty with nothing in common.
+Option 5: One is non-empty, and the other empty.
+Option 6: Input elements for sets A and B.
+
+Input the corresponding integer [1, 6]: 
+1
+CASE 1:
+	A = {1, 2, 3}
+	B = {2, 1, 3}
+    B is a subset of A:   true
+    A is a subset of B:   true
+    A is equal to B:      true
+    A in union with B:    C = {1, 2, 3}
+    A intersects B:       C = {2, 1, 3}
+    A complements B:      C = {}
+    B complements A:      C = {}
+
+Option 1: A and B are equal but distinct sets.
+Option 2: A and B have different sizes, but one is a subset of the other.
+Option 3: A and B are non-empty and different in size but have common elements.
+Option 4: A and B are non-empty with nothing in common.
+Option 5: One is non-empty, and the other empty.
+Option 6: Input elements for sets A and B.
+
+Input the corresponding integer [1, 6]: 
+2
+CASE 2:
+	A = {1}
+	B = {1, 2}
+    B is a subset of A:   false
+    A is a subset of B:   true
+    A is equal to B:      false
+    A in union with B:    C = {1, 2}
+    A intersects B:       C = {1}
+    A complements B:      C = {}
+    B complements A:      C = {2}
+
+Option 1: A and B are equal but distinct sets.
+Option 2: A and B have different sizes, but one is a subset of the other.
+Option 3: A and B are non-empty and different in size but have common elements.
+Option 4: A and B are non-empty with nothing in common.
+Option 5: One is non-empty, and the other empty.
+Option 6: Input elements for sets A and B.
+
+Input the corresponding integer [1, 6]: 
+3
+CASE 3:
+	A = {1, 2, 3}
+	B = {2, 3, 4, 5}
+    B is a subset of A:   false
+    A is a subset of B:   false
+    A is equal to B:      false
+    A in union with B:    C = {1, 2, 3, 4, 5}
+    A intersects B:       C = {2, 3}
+    A complements B:      C = {1}
+    B complements A:      C = {4, 5}
+
+Option 1: A and B are equal but distinct sets.
+Option 2: A and B have different sizes, but one is a subset of the other.
+Option 3: A and B are non-empty and different in size but have common elements.
+Option 4: A and B are non-empty with nothing in common.
+Option 5: One is non-empty, and the other empty.
+Option 6: Input elements for sets A and B.
+
+Input the corresponding integer [1, 6]: 
+4
+CASE 4:
+	A = {1}
+	B = {2, 3}
+    B is a subset of A:   false
+    A is a subset of B:   false
+    A is equal to B:      false
+    A in union with B:    C = {1, 2, 3}
+    A intersects B:       C = {}
+    A complements B:      C = {1}
+    B complements A:      C = {2, 3}
+
+Option 1: A and B are equal but distinct sets.
+Option 2: A and B have different sizes, but one is a subset of the other.
+Option 3: A and B are non-empty and different in size but have common elements.
+Option 4: A and B are non-empty with nothing in common.
+Option 5: One is non-empty, and the other empty.
+Option 6: Input elements for sets A and B.
+
+Input the corresponding integer [1, 6]: 
+5
+CASE 5:
+	A = {2, 3, 5, 7}
+	B = {}
+    B is a subset of A:   true
+    A is a subset of B:   false
+    A is equal to B:      false
+    A in union with B:    C = {2, 3, 5, 7}
+    A intersects B:       C = {}
+    A complements B:      C = {2, 3, 5, 7}
+    B complements A:      C = {}
+
+Option 1: A and B are equal but distinct sets.
+Option 2: A and B have different sizes, but one is a subset of the other.
+Option 3: A and B are non-empty and different in size but have common elements.
+Option 4: A and B are non-empty with nothing in common.
+Option 5: One is non-empty, and the other empty.
+Option 6: Input elements for sets A and B.
+
+Input the corresponding integer [1, 6]: 
+6
+CASE 6:
+Instructions: Please input elements, separated by spaces or enters (new line).
+              Note, elements are case sensitive. While inputting into set A, 
+              enter 'quit' to finish; while inputting into set B, enter 'quit'
+              to finish. To remove a previously entered element in the same set,
+              enter 'remove'.
+Input elements for set A: 
+quit
+Input elements for set B: 
+quit
+	A = {}
+	B = {}
+    B is a subset of A:   true
+    A is a subset of B:   true
+    A is equal to B:      true
+    A in union with B:    C = {}
+    A intersects B:       C = {}
+    A complements B:      C = {}
+    B complements A:      C = {}
+
+Option 1: A and B are equal but distinct sets.
+Option 2: A and B have different sizes, but one is a subset of the other.
+Option 3: A and B are non-empty and different in size but have common elements.
+Option 4: A and B are non-empty with nothing in common.
+Option 5: One is non-empty, and the other empty.
+Option 6: Input elements for sets A and B.
+
+Input the corresponding integer [1, 6]: 
+6
+CASE 6:
+Instructions: Please input elements, separated by spaces or enters (new line).
+              Note, elements are case sensitive. While inputting into set A, 
+              enter 'quit' to finish; while inputting into set B, enter 'quit'
+              to finish. To remove a previously entered element in the same set,
+              enter 'remove'.
+Input elements for set A: 
+k 2 3 5 7 11 13
+quit
+Input elements for set B: 
+1 1 2 3 5 8 13 k
+quit
+	A = {k, 2, 3, 5, 7, 11, 13}
+	B = {1, 2, 3, 5, 8, 13, k}
+    B is a subset of A:   false
+    A is a subset of B:   false
+    A is equal to B:      false
+    A in union with B:    C = {k, 2, 3, 5, 7, 11, 13, 1, 8}
+    A intersects B:       C = {2, 3, 5, 13, k}
+    A complements B:      C = {7, 11}
+    B complements A:      C = {1, 8}
+
+Option 1: A and B are equal but distinct sets.
+Option 2: A and B have different sizes, but one is a subset of the other.
+Option 3: A and B are non-empty and different in size but have common elements.
+Option 4: A and B are non-empty with nothing in common.
+Option 5: One is non-empty, and the other empty.
+Option 6: Input elements for sets A and B.
+
+Input the corresponding integer [1, 6]: 
+6
+CASE 6:
+Instructions: Please input elements, separated by spaces or enters (new line).
+              Note, elements are case sensitive. While inputting into set A, 
+              enter 'quit' to finish; while inputting into set B, enter 'quit'
+              to finish. To remove a previously entered element in the same set,
+              enter 'remove'.
+Input elements for set A: 
+2 4 8 16 19
+remove
+A = {2, 4, 8, 16, 19}
+What object would you like to remove? 
+19
+Removal successful. Continuing set A input: 
+quit
+Input elements for set B: 
+3 9 27 81 84
+remove
+B = {3, 9, 27, 81, 84}
+What object would you like to remove? 
+84
+Removal successful. Continuing set B input: 
+remove
+B = {3, 9, 27, 81}
+What object would you like to remove? 
+2999
+Removal unsuccessful. Continuing set B input: 
+quit
+	A = {2, 4, 8, 16}
+	B = {3, 9, 27, 81}
+    B is a subset of A:   false
+    A is a subset of B:   false
+    A is equal to B:      false
+    A in union with B:    C = {2, 4, 8, 16, 3, 9, 27, 81}
+    A intersects B:       C = {}
+    A complements B:      C = {2, 4, 8, 16}
+    B complements A:      C = {3, 9, 27, 81}

@@ -1,0 +1,21 @@
+/*
+This toy program won't work.
+*/
+
+class Fail extends Sad implements Terrible, Bad
+{
+   int aGlobal;
+   void stats(int first)
+   {
+       if (first < 100)
+       {
+           return;
+       }
+       else
+       {
+           aGlobal = first;
+       }
+   }
+
+   println(e, f); // Rejected
+}

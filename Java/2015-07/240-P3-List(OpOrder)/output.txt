@@ -1,0 +1,53 @@
+INSTRUCTIONS: Please input one or more infix arithmetic expressions,
+separated by enter, or 'quit' to stop inputting.
+1st: a + b + c
+2nd: a + b * c
+3rd: (a + b)*(c - d)
+4th: a a +
+     Invalid input.
+     Order of operators and operands is incorrect.
+Please try again.
+4th: + a b
+     Invalid input.
+     Order of operators and operands is incorrect.
+Please try again.
+4th: a - - b
+     Invalid input.
+     Issue with the amounts of operands and operators.
+Please try again.
+4th: (a + b }
+     Invalid input.
+     } did not match previous.
+Please try again.
+4th: ( d - k) + { l - m
+     Invalid input.
+     Check for pairs of corresponding parentheses, brackets, or braces.
+Please try again.
+4th: a * (b + c) / d
+5th: a * b + c / d
+6th: a * (b + c % d)
+7th: 
+     No expression given.
+Please try again.
+7th: a + b * c + d
+8th: a * b + c * d
+9th: quit
++=====================+=====================+=====================+
+|Infix                |Postfix              |Prefix               |
++=====================+=====================+=====================+
+|a + b + c            |a b + c +            |+ + a b c            |
++=====================+=====================+=====================+
+|a + b * c            |a b c * +            |+ a * b c            |
++=====================+=====================+=====================+
+|(a + b)*(c - d)      |a b + c d - *        |* + a b - c d        |
++=====================+=====================+=====================+
+|a * (b + c) / d      |a b c + * d /        |/ * a + b c d        |
++=====================+=====================+=====================+
+|a * b + c / d        |a b * c d / +        |+ * a b / c d        |
++=====================+=====================+=====================+
+|a * (b + c % d)      |a b c d % + *        |* a + b % c d        |
++=====================+=====================+=====================+
+|a + b * c + d        |a b c * + d +        |+ + a * b c d        |
++=====================+=====================+=====================+
+|a * b + c * d        |a b * c d * +        |+ * a b * c d        |
++=====================+=====================+=====================+

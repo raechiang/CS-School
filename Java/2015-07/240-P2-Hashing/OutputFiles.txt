@@ -1,0 +1,90 @@
++-------------------------------------------------+
+|            This is the run using ex:            |
++-------------------------------------------------+
+# of collisions: 0
+Size of table:   41
+
+# of names:      6
+Minimum average: 90.500
+   Marc Bulger
+   Aaron Brooks
+Maximum average: 124.000
+   Daunte Culpepper
+
+Enter name or 'q' to quit: Peyton Manning
+   Name: Peyton Manning   Avg: 116.2   # Scores: 2
+Enter name or 'q' to quit: Donovan McNabb
+   Name: Donovan McNabb   Avg: 105.6   # Scores: 2
+Enter name or 'q' to quit: Donald Duck
+   Donald Duck not found.
+Enter name or 'q' to quit: Brett Favre
+   Name: Brett Favre   Avg: 93.8   # Scores: 2
+Enter name or 'q' to quit: q
+You have quit.
+
++-------------------------------------------------+
+|       This is the run using hashingData:        |
++-------------------------------------------------+
+# of collisions: 4
+Size of table:   82
+
+# of names:      32
+Minimum average: 14.438
+   Chicago
+Maximum average: 32.625
+   Indianapolis
+
+Enter name or 'q' to quit: New England
+   Name: New England   Avg: 27.3125   # Scores: 16
+Enter name or 'q' to quit: Indianapolis
+   Name: Indianapolis   Avg: 32.625   # Scores: 16
+Enter name or 'q' to quit: Tennessee
+   Name: Tennessee   Avg: 21.5   # Scores: 16
+Enter name or 'q' to quit: Miami
+   Name: Miami   Avg: 17.1875   # Scores: 16
+Enter name or 'q' to quit: St. Louis
+   Name: St. Louis   Avg: 19.9375   # Scores: 16
+Enter name or 'q' to quit: Arizona
+   Name: Arizona   Avg: 17.75   # Scores: 16
+Enter name or 'q' to quit: Seattle
+   Name: Seattle   Avg: 23.1875   # Scores: 16
+Enter name or 'q' to quit: New Orleans
+   Name: New Orleans   Avg: 21.75   # Scores: 16
+Enter name or 'q' to quit: NY Jets
+   Name: NY Jets   Avg: 20.8125   # Scores: 16
+Enter name or 'q' to quit: Cincinnati
+   Name: Cincinnati   Avg: 23.375   # Scores: 16
+Enter name or 'q' to quit: Pittsburgh
+   Name: Pittsburgh   Avg: 23.25   # Scores: 16
+Enter name or 'q' to quit: Oakland
+   Name: Oakland   Avg: 20.0   # Scores: 16
+Enter name or 'q' to quit: Washington
+   Name: Washington   Avg: 15.0   # Scores: 16
+Enter name or 'q' to quit: Tampa Bay
+   Name: Tampa Bay   Avg: 18.8125   # Scores: 16
+Enter name or 'q' to quit: San Diego
+   Name: San Diego   Avg: 27.875   # Scores: 16
+Enter name or 'q' to quit: Houston
+   Name: Houston   Avg: 19.3125   # Scores: 16
+Enter name or 'q' to quit: Jacksonville
+   Name: Jacksonville   Avg: 16.3125   # Scores: 16
+Enter name or 'q' to quit: Buffalo
+   Name: Buffalo   Avg: 24.6875   # Scores: 16
+Enter name or 'q' to quit: Detroit
+   Name: Detroit   Avg: 18.5   # Scores: 16
+Enter name or 'q' to quit: Chicago
+   Name: Chicago   Avg: 14.4375   # Scores: 16
+Enter name or 'q' to quit: Cleveland
+   Name: Cleveland   Avg: 17.25   # Scores: 16
+Enter name or 'q' to quit: Baltimore
+   Name: Baltimore   Avg: 19.8125   # Scores: 16
+Enter name or 'q' to quit: Atlanta
+   Name: Atlanta   Avg: 21.25   # Scores: 16
+Enter name or 'q' to quit: San Francisco
+   Name: San Francisco   Avg: 16.1875   # Scores: 16
+Enter name or 'q' to quit: The Rain
+   The Rain not found.
+Enter name or 'q' to quit: Philadelphia
+   Name: Philadelphia   Avg: 24.125   # Scores: 16
+Enter name or 'q' to quit: q
+You have quit.

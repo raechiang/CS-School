@@ -1,0 +1,79 @@
+//VariableDecl => Type _id _semicolon
+double a;
+
+//FunctionDecl => Type _id _leftparen Formals _rightparen StmtBlock
+void someName(string s, boolean b, double d)
+{
+   int num;
+//   num = s.length; // rejected
+   //Stmt => StmtBlock
+   {
+      int localValue;
+//      localValue = 10;
+//      localValue = readln(); // rejected
+      println("%d * 2 = ", localValue);
+   }
+   num = num + 10;
+}
+
+//ClassDecl => FunctionDecl
+class ClassA extends ClassB implements ClassC, ClassD
+{
+   void aMethod(int a, int b)
+   {
+      if (a == b)
+      {
+         int i;
+         for (i = 0; i < 3; i = i + 1)
+         {
+/* Case 1: if-else with empty blocks in brackets and an Expr after
+This is ACCEPTED. Also accepts if the last Expr is left out
+            if (a%2 == 0)
+            {
+            }
+            else
+            {
+            }
+            a = math.random();
+*/
+/* Case 2: if-else with Expr inside
+This is REJECTED with and without the last Expr
+            if (a%2 == 0)
+            {
+               b = b * a;
+            }
+            else
+            {
+               b = b * 2;
+            }
+            a = math.random();
+*/
+// Case 3: if-else without brackets with Exprs inside and an Expr after
+//This is ACCEPTED with and without the last Expr and any amount or type of subsequent Exprs
+            if (a%2 == 0)
+               b = b * a;
+            else
+               b = b * 2;
+            a = math.random();
+/* Case 4: No if-else and only Expr
+This is REJECTED
+            a = math.random();
+*/
+         }
+      }
+      super.run(b);
+   }
+}
+
+//InterfaceDecl
+interface SomeInterface
+{
+   // Empty is also accepted.
+   void pt1();
+   void pt2(int a);
+   void pt3(Square[] squaresList);
+   void pt4(int a, double b, Square s);
+   boolean pt5();
+   double pt6(Square sq);
+   Square pt7(double a, double b);
+}

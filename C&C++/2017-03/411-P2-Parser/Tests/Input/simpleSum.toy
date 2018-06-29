@@ -1,0 +1,8 @@
+// A test program.
+void main()
+{
+   int sum;
+   int a;
+   a = 2;
+   sum = a + 3;
+}

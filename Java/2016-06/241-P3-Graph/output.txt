@@ -1,0 +1,72 @@
+Hello! Welcome!
+
+Instructions:
+ Available Commands:
+  Q - Query the city information by entering the city code
+  D - Find the minimum distance between two cities
+  I - Insert a road by entering two city codes and distance
+  R - Remove an existing road by entering two city codes
+  H - Display this message
+  E - Exit
+ Depending on the command (not case-sensitive), you will be asked to input one
+ or two city codes and you may be asked to include a value for the distance. In
+ any case, city codes must be provided as two capitalized letters (ex, "AB").
+Please input a command: Q
+Please input a city code: AN
+1 AN ANAHEIM 1273000 310
+Please input a command: D
+Please input two city codes: AN BR
+There exists a minimum distance between ANAHEIM and BREA CANYON through the route:
+ANAHEIM, BREA CANYON, with a distance of 212.0.
+Please input a command: D
+Please input two city codes: PM FI
+There exists a minimum distance between POMONA and FORT IRWIN through the route:
+POMONA, EDWIN DOM, ANAHEIM, VICTORVILLE, CHINO HILLS, GARDEN GRPVE, FORT IRWIN, with a distance of 346.0.
+Please input a command: D
+Please input two city codes: BK BR
+There exists a minimum distance between BAKERSFIELD and BREA CANYON through the route:
+BAKERSFIELD, LEE VINING, BOSSTOWN, GARDEN GRPVE, LAKE ISABELLA, BREA CANYON, with a distance of 143.0.
+Please input a command: I
+Please input two city codes and the distance along this path: BK AN 100
+The road from BAKERSFIELD to ANAHEIM already exists.
+Please input a command: R
+Please input two city codes: BK ED
+The road between BK and ED does not exist. Please try again.
+Please input a command: I
+Please input two city codes and the distance along this path: BK ED 100
+Successfully inserted path between BAKERSFIELD to EDWIN DOM with a distance of 100.0.
+Please input a command: D
+Please input two city codes: BK ED
+There exists a minimum distance between BAKERSFIELD and EDWIN DOM through the route:
+BAKERSFIELD, EDWIN DOM, with a distance of 100.0.
+Please input a command: H
+  Q - Query the city information by entering the city code
+  D - Find the minimum distance between two cities
+  I - Insert a road by entering two city codes and distance
+  R - Remove an existing road by entering two city codes
+  H - Display this message
+  E - Exit
+Please input a command: Q
+Please input a city code: LV
+12 LV LEE VINING 8390 5983
+Please input a command: D
+Please input two city codes: CH PM
+There exists a minimum distance between CHINO HILLS and POMONA through the route:
+CHINO HILLS, PICO RIVERA, TORRANCE, POMONA, with a distance of 143.0.
+Please input a command: I
+Please input two city codes and the distance along this path: GG BO 100
+Successfully inserted path between GARDEN GRPVE to BOSSTOWN with a distance of 100.0.
+Please input a command: R
+Please input two city codes: KV MP
+The road between KV and MP does not exist. Please try again.
+Please input a command: I
+Please input two city codes and the distance along this path: AN VV 100
+The road from ANAHEIM to VICTORVILLE already exists.
+Please input a command: I
+Please input two city codes and the distance along this path: AN VS 300
+VS does not exist. Please try again.
+Please input a command: i
+Please input two city codes and the distance along this path: WW VV 310
+Successfully inserted path between WRIGHTWOOD to VICTORVILLE with a distance of 310.0.
+Please input a command: E
+Thank you for using this program. Bye.

@@ -1,0 +1,6 @@
+void main()
+{
+   a = 3 + 2 * 5; // 
+   int a; // Variable Declarations go before Stmts
+   // if there aren't any {} denoting a new StmtBlock
+}
