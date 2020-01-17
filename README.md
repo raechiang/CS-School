@@ -16,6 +16,14 @@ CS380 Computer Networks
 - <a href="https://github.com/raechiang/CS-School/tree/master/Java/2017-04/380-P1-ChatClient">[P1] A Super Simple Chat Client</a>: so simple that I don't want to talk about it
 - <a href="https://github.com/raechiang/CS-School/tree/master/Java/2017-06/380-E8-SimpleWebServer">[E8] Simple Web Server</a>: hosts a server on port 8080 and implements two HTTP responses
 - <a href="https://github.com/raechiang/CS-School/tree/master/Java/2017-04/380-E3-ChecksumGen">[E3] Checksum</a>: implements a checksum on some bytes
+CS331 Design and Analysis of Algorithms
+- <a href="https://github.com/raechiang/CS-School/tree/master/Java/2017-03/331-P2-Graphs">[P2] Graphs</a>: Floyd's, Dijkstra's, Prim's, Kruskal's
+- <a href="https://github.com/raechiang/CS-School/tree/master/Java/2017-02/331-P1-Sorting">[P1] Sorting</a>: Insertion, Merge, and Quick
+CS431 Operating Systems
+- <a href="https://github.com/raechiang/CS-School/tree/master/Java/2016-12/431-P4-FileSystem">[P4] File Allocation Table Simulation</a>: simulates a file system with 64 blocks
+- <a href="https://github.com/raechiang/CS-School/tree/master/Java/2016-11/431-P3-SwappingMemory">[P3] Swapping</a>
+CS356 Object-Oriented Programming
+- <a href="https://github.com/raechiang/CS-School/tree/master/Java/2016-11/356-A2-Twitter">[A2] Mini Twitter</a>: simulates a mini, desktop Twitter with a GUI using Java Swing
 ## C++
 ## Prolog
 ## Haskell
