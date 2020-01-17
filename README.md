@@ -1,11 +1,14 @@
 # CS-School
+
 Here is a directory of five languages used within the context of projects used in my time at university. In order of bulk of content,
 - <a href="https://github.com/raechiang/CS-School/tree/master/Java">Java</a>
 - <a href="https://github.com/raechiang/CS-School/tree/master/C%26C%2B%2B">C/C++</a>
 - <a href="https://github.com/raechiang/CS-School/tree/master/Prolog">Prolog</a> and <a href="https://github.com/raechiang/CS-School/tree/master/Haskell">Haskell</a>
 - <a href="https://github.com/raechiang/CS-School/tree/master/Lua/2017-03/408-ShooterDemo">Lua</a> (which is a single project)
+
 ## Java
 ### Contents
+
 CS380 Computer Networks
 - <a href="https://github.com/raechiang/CS-School/tree/master/Java/2017-06/380-P7-FileTransferwEncryption">[P7] Encrypted File Transfer</a>: operates as a client or a server
 - <a href="https://github.com/raechiang/CS-School/tree/master/Java/2017-05/380-P6-TicTacToe">[P6] Tic-Tac-Toe</a>: passes messages back and forth between the server to play a game of Tic-Tac-Toe
@@ -31,6 +34,22 @@ CS431 Operating Systems
 CS356 Object-Oriented Programming
 - <a href="https://github.com/raechiang/CS-School/tree/master/Java/2016-11/356-A2-Twitter">[A2] Mini Twitter</a>: simulates a mini, desktop Twitter with a GUI using Java Swing
 - <a href="https://github.com/raechiang/CS-School/tree/master/Java/2016-10/356-A1-iVote">[A1] iVote Simulator</a>: allows posing questions and answers
+
+CS241 Data Structures and Algorithms
+- <a href="https://github.com/raechiang/CS-School/tree/master/Java/2016-06/241-P3-Graph">[P3] Graph & Dijkstra's</a>: implements a graph and applies Dijkstra's algorithm
+- <a href="https://github.com/raechiang/CS-School/tree/master/Java/2016-05/241-P2-Heap">[P2] Heap</a>: implements a binary max-heap
+- <a href="https://github.com/raechiang/CS-School/tree/master/Java/2016-04/241-P1-BinaryTree">[P1] Binary Search Tree</a>: implements a binary search tree
+
+CS240 Data Structures and Algorithms
+- <a href="https://github.com/raechiang/CS-School/tree/master/Java/2015-07/240-P3-List(OpOrder)">[P3] Stack</a>: implements stacks to convert infix expressions to postfix and prefix expressions
+- <a href="https://github.com/raechiang/CS-School/tree/master/Java/2015-07/240-P2-Hashing">[P2] Hashing</a>: implements a simple hash table that stores Strings and numerical values
+- <a href="https://github.com/raechiang/CS-School/tree/master/Java/2015-07/240-P1-Set">[P1] Set</a>: implements sets as a singly-linked list with a dummy head
+
+CS141 Intro to Java
+- <a href="https://github.com/raechiang/CS-School/tree/master/Java/2015-06/141-Game/cs141-gp">Game</a>: a simple game in which a player travels through a 9x9 board to find a briefcase while avoiding enemies
+
 ## C++
+
 ## Prolog
+
 ## Haskell
