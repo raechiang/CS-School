@@ -1,0 +1,2 @@
+# 4B/5B NRZI
+This project simulates the physical layer of communication. A server will send 'signals' (numbers in [0,255]) and the client will interpret them. After connecting with the server, the server will send a 64 Byte preamble to establish a baseline. Then, the server will send 32 Bytes of randomly-generated data, encoded using 4B/5B with NRZI. The client will decode the data and reply with an array of the decoded 32 Bytes. The server will then respond with a non-encoded byte: 0 meaning the bytes were decoded incorrectly and 1 meaning it was done correctly.
