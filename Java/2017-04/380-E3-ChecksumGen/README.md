@@ -1,0 +1,2 @@
+# Checksum Generator
+This program connects to a server (codebank.xyz on port 38103). The first byte that it reads corresponds to the number of bytes that is to be saved into an array. After reading the whole array, we calculate the checksum of the array. Then, the client will send the checksum as a sequence of two bytes back to the server. If the server responds 1, then the checksum was calculated correctly; otherwise, it will respond with a 0.
