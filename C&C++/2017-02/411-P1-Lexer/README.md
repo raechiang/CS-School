@@ -1,5 +1,6 @@
 # Lexer
 
+This project implements a lexer, so characters are converted into tokens.
 
 ## Getting Started
 
