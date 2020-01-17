@@ -24,9 +24,13 @@ CS331 Design and Analysis of Algorithms
 CS431 Operating Systems
 - <a href="https://github.com/raechiang/CS-School/tree/master/Java/2016-12/431-P4-FileSystem">[P4] File Allocation Table Simulation</a>: simulates a file system with 64 blocks
 - <a href="https://github.com/raechiang/CS-School/tree/master/Java/2016-11/431-P3-SwappingMemory">[P3] Swapping</a>
+- <a href="https://github.com/raechiang/CS-School/tree/master/Java/2016-10/431-P2-ProcessScheduler">[P2] Process Scheduler</a>: simulates process-scheduling algorithms
+- <a href="https://github.com/raechiang/CS-School/tree/master/Java/2016-10/431-P1-ProcessTable">[P1] Process Table</a>: simulates a process table, with entries containing process ID, program counter, and status
+- <a href="https://github.com/raechiang/CS-School/tree/master/Java/2016-10/431-E3-BlockingQueue">[E3] Semaphore-Based Blocking Queue</a>: just a blocking queue that uses semaphores
 
 CS356 Object-Oriented Programming
 - <a href="https://github.com/raechiang/CS-School/tree/master/Java/2016-11/356-A2-Twitter">[A2] Mini Twitter</a>: simulates a mini, desktop Twitter with a GUI using Java Swing
+- <a href="https://github.com/raechiang/CS-School/tree/master/Java/2016-10/356-A1-iVote">[A1] iVote Simulator</a>: allows posing questions and answers
 ## C++
 ## Prolog
 ## Haskell
