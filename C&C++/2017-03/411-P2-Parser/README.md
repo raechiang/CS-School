@@ -1,6 +1,6 @@
 # Parser
 
-This is a parser I built for a fake language, which we called "Toy".
+This is a parser I built for a fake language, which we called "Toy". I have included a <a href="https://github.com/raechiang/CS-School/blob/master/C%26C%2B%2B/2017-03/411-P2-Parser/ChiangRachel-Project2-Writeup.pdf">project write-up</a>, but its readability is poor. However, there is a handy table for production rules on page 30.
 
 ## Getting Started
 I used the same Xubuntu as for the first project.
