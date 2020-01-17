@@ -48,7 +48,21 @@ CS240 Data Structures and Algorithms
 CS141 Intro to Java
 - <a href="https://github.com/raechiang/CS-School/tree/master/Java/2015-06/141-Game/cs141-gp">Game</a>: a simple game in which a player (armed with a gun) travels through a 9x9 board to find a briefcase while avoiding enemies
 
-## C++
+## C/C++
+
+CS420 Artifical Intelligence
+- <a href="https://github.com/raechiang/CS-School/tree/master/C%26C%2B%2B/2017-12/420-P3-Connect4">[P3] Connect 4</a>: implements the minimax algorithm with alpha beta pruning to play Connect 4
+- <a href="https://github.com/raechiang/CS-School/tree/master/C%26C%2B%2B/2017-11/420-P2-21Queens">[P2] 21 Queens</a>: implements steepest-ascent hill climbing approach and the genetic algorithm to distribute queens to be 'nonattacking'
+- <a href="https://github.com/raechiang/CS-School/tree/master/C%26C%2B%2B/2017-11/420-P1-8Puzzle">[P1] 8-Puzzle</a>: implements A* search with two heuristic functions to solve the 8-puzzle
+
+CS301 Numerical Methods
+- <a href="https://github.com/raechiang/CS-School/tree/master/C%26C%2B%2B/2017-12/301-P3-InterPoly-wDivDiff">[P3] Interpolating Polynomials with Divided Difference</a>: constructs a divided difference table and determines the interpolating polynomial
+- <a href="https://github.com/raechiang/CS-School/tree/master/C%26C%2B%2B/2017-11/301-P2-Roots">[P2] Finding Roots</a>: implements five numerical methods to find roots of non-linear equations
+- <a href="https://github.com/raechiang/CS-School/tree/master/C%26C%2B%2B/2017-11/301-P1-ScaledPartialPivoting">[P1] Scaled Partial Pivoting</a>: solves a system of equations using scaled partial pivoting with Gaussian elimination
+
+CS411 Compilers
+- <a href="https://github.com/raechiang/CS-School/tree/master/C%26C%2B%2B/2017-03/411-P2-Parser">[P2] Parser</a>: for a fake language called "Toy"
+- <a href="https://github.com/raechiang/CS-School/tree/master/C%26C%2B%2B/2017-02/411-P1-Lexer">[P1] Lexer</a>
 
 ## Prolog
 
