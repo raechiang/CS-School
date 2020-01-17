@@ -1,6 +1,4 @@
-Rachel Chiang
-CS 411-01
-Project 2
+# Parser
 
 I used the same Xubuntu as for the first project.
 - http://askubuntu.com/questions/164293/how-to-install-flex
