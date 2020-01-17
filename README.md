@@ -46,7 +46,7 @@ CS240 Data Structures and Algorithms
 - <a href="https://github.com/raechiang/CS-School/tree/master/Java/2015-07/240-P1-Set">[P1] Set</a>: implements sets as a singly-linked list with a dummy head
 
 CS141 Intro to Java
-- <a href="https://github.com/raechiang/CS-School/tree/master/Java/2015-06/141-Game/cs141-gp">Game</a>: a simple game in which a player travels through a 9x9 board to find a briefcase while avoiding enemies
+- <a href="https://github.com/raechiang/CS-School/tree/master/Java/2015-06/141-Game/cs141-gp">Game</a>: a simple game in which a player (armed with a gun) travels through a 9x9 board to find a briefcase while avoiding enemies
 
 ## C++
 
