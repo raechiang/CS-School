@@ -7,8 +7,8 @@ Here is a directory of five languages used within the context of projects used i
 ## Java
 ### Contents
 CS380 Computer Networks
-- <a href="https://github.com/raechiang/CS-School/tree/master/Java/2017-06/380-P7-FileTransferwEncryption">Encrypted File Transfer</a>: operates as a client or a server
-- <a href="https://github.com/raechiang/CS-School/tree/master/Java/2017-06/380-E8-SimpleWebServer">E8 Simple Web Server</a>: hosts a server on port 8080 and implements two HTTP responses
+- <a href="https://github.com/raechiang/CS-School/tree/master/Java/2017-06/380-P7-FileTransferwEncryption">[P7] Encrypted File Transfer</a>: operates as a client or a server
+- <a href="https://github.com/raechiang/CS-School/tree/master/Java/2017-06/380-E8-SimpleWebServer">[E8] Simple Web Server</a>: hosts a server on port 8080 and implements two HTTP responses
 ## C++
 ## Prolog
 ## Haskell
